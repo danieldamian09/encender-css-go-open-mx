@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+/*Cambios a a 'Olvide mi contraseña'*/
+span.slds-form-element__label a {
+    text-decoration: underline !important;
+}
+
+/* Cambios al FOOTER_TANDC */
+
+.cDTE_LoginForm .widget-window .footer_tandc {
+    padding: 28px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.cDTE_LoginForm .widget-window .footer_tandc {
+    padding: 28px 0 0;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.cDTE_LoginForm .widget-window a, .cDTE_LoginForm .widget-window button{
+    color: #444444;
+}
+
+.cDTE_LoginForm #ot-sdk-btn.ot-sdk-show-settings .cDTE_OTButtonStyle {
+    font-size: 12px;
+    color: #444444;
+}
+
+#ot-sdk-btn.ot-sdk-show-settings,#ot-sdk-btn.optanon-show-settings {
+	padding:0px !important;
+}
+.cDTE_LoginForm .widget-window .footer_tandc>div.linkContainer {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 0px;
+    flex-wrap: wrap;
+}
